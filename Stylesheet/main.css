@@ -1,0 +1,167 @@
+
+.background-color {
+    background-color: #fff;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10em 10em;
+    padding: 4em 5em;
+    border-radius: 10px;
+    height: 20em;
+}
+
+.card-spacing {
+    position: relative;
+    padding: 8em 3em;
+    line-height: 25px;
+}
+
+#first {
+    background-color: hsl(31, 77%, 52%);
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 15rem;
+}
+
+#second {
+    background-color: hsl(184, 100%, 22%);
+    color: #fff;
+    height: 15rem;
+}
+
+#third {
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 15rem;
+}
+
+.heading-space {
+    padding-bottom: 15px;
+}
+
+.btn {
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 0em;
+    background-color: #fff;
+    border-radius: 21px;
+    padding: 10px 22px;
+}
+
+.btn-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.svg-position  {
+    position: absolute;
+    margin-top: -5em;
+}
+
+
+@media (max-width: 1440px) {
+    .background-color {
+        background-color: #fff;
+    }
+    
+    .card-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10em 10em;
+        padding: 4em 5em;
+        border-radius: 10px;
+        height: 20em;
+    }
+    
+    .card-spacing {
+        position: relative;
+        padding: 8em 3em;
+        line-height: 25px;
+    }
+    
+    #first {
+        background-color: hsl(31, 77%, 52%);
+        color: #fff;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 15rem;
+    }
+    
+    #second {
+        background-color: hsl(184, 100%, 22%);
+        color: #fff;
+        height: 15rem;
+    }
+    
+    #third {
+        background-color: hsl(179, 100%, 13%);
+        color: #fff;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 15rem;
+    }
+    
+    .heading-space {
+        padding-bottom: 15px;
+    }
+    
+    .btn {
+        position: absolute;
+        margin-top: 2em;
+        margin-left: 0em;
+        background-color: #fff;
+        border-radius: 21px;
+        padding: 10px 22px;
+    }
+    
+    .btn-1 {
+        color: hsl(31, 77%, 52%);
+    }
+    
+    .btn-2 {
+        color: hsl(184, 100%, 22%);
+    }
+    
+    .btn-3 {
+        color: hsl(179, 100%, 13%);
+    }
+    
+}
+
+
+
+@media (min-width: 425px) {
+    .card-flex {
+        flex-direction: column;
+        margin: 50em 16em;
+        padding: 10em 5em;
+    }
+    #first {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+    #third {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .btn {
+        padding: 10px 35px;
+    }
+}
+
